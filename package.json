@@ -1,0 +1,13 @@
+{
+  "name": "neww",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix src && npm run build --prefix src",
+    "start": "npm run start --prefix src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
