@@ -2,30 +2,6 @@
 
 ## Project Title: Node.js Backend for Blogging Website
 
-Welcome to the backend of a full featured Blogging Web App built using Node.js, Express
-and MongoDB.
-This API handles user authentication, blog post CRUD operations, profile management and  with clean code, modular structure and RESTful practices.
-
-> 💻 Developed by: Firaol Gula
-> 📅 Date: April 14, 2025
-
-📂Project Structure
-
-/project-root
-│
-├── src/
-│   ├── config/         # DB connection & dotenv
-│   ├── controllers/    # Business logic
-│   ├── middleware/     # Auth, validation
-│   ├── models/         # Mongoose schemas
-│   ├── routes/         # Express routers
-│   ├── services/       # Token/email utilities
-│   ├── app.js          # Main Express app
-│
-├── server.js           # Entry point
-├── package.json
-└── .env                # Environment variables
-Project Title: Node.js Backend for Blogging Website
 
 Welcome to the backend of a full featured Blogging Web App built using Node.js, Express
 and MongoDB.
@@ -36,25 +12,26 @@ This API handles user authentication, blog post CRUD operations, profile managem
 
 📂Project Structure
 
-/project-root
-│
-├── src/
-│   ├── config/         # DB connection & dotenv
-│   ├── controllers/    # Business logic
-│   ├── middleware/     # Auth, validation
-│   ├── models/         # Mongoose schemas
-│   ├── routes/         # Express routers
-│   ├── services/       # Token/email utilities
-│   ├── app.js          # Main Express app
-│
-├── server.js           # Entry point
-├── package.json
+/project-root<br>
+│<br>
+├── src/ <br>
+│   ├── config/         # DB connection & dotenv <br>
+│   ├── controllers/    # Business logic <br>
+│   ├── middleware/     # Auth, validation <br>
+│   ├── models/         # Mongoose schemas <br>
+│   ├── routes/         # Express routers  <br>
+│   ├── services/       # Token/email utilities <br>
+│   ├── app.js          # Main Express app <br>
+│<br>
+├── server.js           # Entry point <br>
+├── package.json <br>
 └── .env                # Environment variables
 
 🧑‍💻Tech stack
 
-| Tool / Library     |  Purpose 
-| Node.js            | JavaScript runtime 
+| Tool / Library    |  Purpose 
+| -- | -- |
+| Node.js           | JavaScript runtime 
 | Express.js         | Web server framework 
 | MongoDB + Mongoose | NoSQL database & ODM 
 | JWT                |  Secure authentication 
@@ -63,7 +40,7 @@ This API handles user authentication, blog post CRUD operations, profile managem
 | dotenv             | Secure environment configs 
 | Mailtrap SMTP      | Password reset email testing 
 | Google OAuth       | Third-party login support  
-
+---
 ## 🧪 Features
 
 ### Authentication
