@@ -1,16 +1,15 @@
 
-
 ## Project Title: Node.js Backend for Blogging Website
 
 Welcome to the backend of a full featured Blogging Web App built using Node.js, Express
 and MongoDB.
 This API handles user authentication, blog post CRUD operations, profile management and  with clean code, modular structure and RESTful practices.
 
-> 💻 Developed by: Firaol Gula
+> 💻 Developed by: Senior Developer Firaol Gula
 > 📅 Date: April 14, 2025
 
 📂Project Structure
-
+```
 /project-root
 │
 ├── src/
@@ -25,44 +24,22 @@ This API handles user authentication, blog post CRUD operations, profile managem
 ├── server.js           # Entry point
 ├── package.json
 └── .env                # Environment variables
-Project Title: Node.js Backend for Blogging Website
-
-Welcome to the backend of a full featured Blogging Web App built using Node.js, Express
-and MongoDB.
-This API handles user authentication, blog post CRUD operations, profile management and  with clean code, modular structure and RESTful practices.
-
-> 💻 Developed by: Firaol Gula
-> 📅 Date: April 14, 2025
-
-📂Project Structure
-
-/project-root
-│
-├── src/
-│   ├── config/         # DB connection & dotenv
-│   ├── controllers/    # Business logic
-│   ├── middleware/     # Auth, validation
-│   ├── models/         # Mongoose schemas
-│   ├── routes/         # Express routers
-│   ├── services/       # Token/email utilities
-│   ├── app.js          # Main Express app
-│
-├── server.js           # Entry point
-├── package.json
-└── .env                # Environment variables
+```
+---
 
 🧑‍💻Tech stack
 
-| Tool / Library     |  Purpose 
-| Node.js            | JavaScript runtime 
-| Express.js         | Web server framework 
-| MongoDB + Mongoose | NoSQL database & ODM 
-| JWT                |  Secure authentication 
-| bcrypt             | Password hashing 
-| express-validator  | Input validation 
-| dotenv             | Secure environment configs 
-| Mailtrap SMTP      | Password reset email testing 
-| Google OAuth       | Third-party login support  
+| Tool / Library  |  Purpose |
+| --- | --- |
+| Node.js | JavaScript runtime |
+| Express.js | Web server framework |
+| MongoDB + Mongoose | NoSQL database & ODM |
+| JWT |  Secure authentication |
+| bcrypt | Password hashing |
+| express-validator | Input validation |
+| dotenv | Secure environment configs |
+| Mailtrap SMTP | Password reset email testing |
+| Google OAuth | Third-party login support  |
 
 ## 🧪 Features
 
@@ -89,6 +66,7 @@ This API handles user authentication, blog post CRUD operations, profile managem
 - Comment on posts
 - View & delete comments (author-only)
 
+---
 
 ## 🔐 Environment Setup
 
@@ -119,6 +97,7 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 
 🛑 **Keep `.env` private — never commit to GitHub!**
 
+---
 
 ## 🛠️ Installation & Running the Project
 
@@ -150,6 +129,7 @@ npm run dev
 
 The server runs on `http://localhost:5000`.
 
+---
 
 ## 📬 Postman API Testing
 
@@ -163,6 +143,9 @@ The server runs on `http://localhost:5000`.
 
 > ⚠️ Protected routes require login. Postman will automatically use cookies if Send Cookies is enabled.
 > 
+
+---
+
 ## 🔄 API Endpoints Overview
 
 | Method | Endpoint | Description |
@@ -199,6 +182,7 @@ The server runs on `http://localhost:5000`.
 | `nodemailer` + `mailtrap` | Email testing for password reset flows |
 | `passport-google-oauth20` | Adds easy third-party login |
 
+---
 
 ## ✨ Features
 
@@ -208,6 +192,9 @@ The server runs on `http://localhost:5000`.
 - 💬 Blog comments
 - 🧹 Clean code structure for scalability
 - 📦 Modular controllers & services
+
+---
+
 
 ## 👨‍💻 Developer
 
