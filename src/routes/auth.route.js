@@ -26,11 +26,11 @@ router.get(
 router.get(
   "/google/callback",
   passport.authenticate("google", {
-    failureRedirect: "callback/failure",
+    failureRedirect: `${process.env.GOOGLE_BASE_URL}/callback/failure`,
   }),
   (req, res) => {
     generateToken(req.user._id, res);
-    res.redirect("callback/success");
+    res.redirect(`${process.env.GOOGLE_BASE_URL}/callback/success`);
   }
 );
 router.get("/google/callback/failure", (req, res) => {
