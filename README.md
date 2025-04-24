@@ -188,6 +188,6 @@ The server runs on `http://localhost:5000`.
 
 ## 👨‍💻 Developer
 
-> Mr. Firaol Gula – Senior Backend Developer
+> Mr. Firaol Gula – Backend Developer
 > 🗓️ April 2025
 
